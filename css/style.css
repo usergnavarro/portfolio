@@ -1,0 +1,135 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar.navbar-default.navbar-fixed-top{
+    border-radius: 10px;
+}
+
+.navbar.navbar-default{
+    margin:20px;
+    padding: 5px;
+    width: auto;
+}
+.nav.navbar-nav{
+    float: right;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color:#000000;
+}
+
+header{
+    background-image: url(../img/capa.jpg);
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner-principal{
+    background-color: rgba(165,45,42,0.8);
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    position: relative;
+    margin:0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+         }
+
+.banner-principal p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+}
+
+.banner-principal h1{
+    font-size: 80px;
+}
+
+p,footer{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+footer{
+ background-color: #EED5D2;
+ color:#000;
+ padding:15px;
+ margin-top: 10px;
+}
+
+.thumbnail a>img, .thumbnail>img {
+    min-height: 260px;
+}
+
+.divider{
+    width: 1px;
+    height: 16px;
+    border: 0.5px solid #000;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+ul.social_icons{
+    list-style-type: none;
+}
+
+.social_icons{
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing:5px;
+}
+.dicas{
+     padding: 0 90px;
+}
+
+@media(min-width: 768px){
+.container{
+    padding-right: 15px;
+}
+
+.divide{
+    width: 100%;
+    display: inline-flex;
+}
+.thumbnail{
+    background-color:transparent;
+    border: none;
+}
+.dicas{
+     padding: 0 0px;
+}
+a.navbar-brand {
+    font-size: 20px;}
+.banner-principal h1{
+    font-size: 60px;
+}
+
+.jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;}
+
+.banner-principal{
+    top: 55%;
+}
+.panel-group.col-sm-6{
+    width: 100%;
+}
+
+}

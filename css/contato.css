@@ -1,0 +1,72 @@
+body{
+    font-family: 'Pacifico', cursive;
+    }
+
+.contato p{
+    font-size: 18px;
+}
+.navbar.navbar-default.navbar-fixed-top{
+    border-radius: 10px;
+}
+
+.navbar.navbar-default{
+    margin:20px;
+    padding: 5px;
+    width: auto;
+}
+.nav.navbar-nav{
+    float: right;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color:#000000;}
+
+#blog{
+    background-image: none;
+    height:100px;
+}
+
+#contato-texto{
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 200px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#contato-email{
+    font-size: 16px;
+}
+
+.form-control{
+    font-size: 16px;
+}
+
+.formulario.form-control{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contato {
+    margin-bottom: 30px;
+}
+
+.form-group{
+   font-family: 'PT Sans Narrow', sans-serif;
+}
+.form-control{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.grupo-radio{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.btn{
+    font-size: 18px;
+}
+
+.titles{
+    font-size: 18px;
+}
+
+

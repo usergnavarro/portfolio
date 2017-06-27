@@ -1,0 +1,24 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar.navbar-default.navbar-fixed-top{
+    border-radius: 10px;
+}
+
+.navbar.navbar-default{
+    margin:20px;
+    padding: 5px;
+    width: auto;
+}
+.nav.navbar-nav{
+    float: right;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color:#000000;}
+
+#blog{
+    background-image: none;
+}
